@@ -85,8 +85,27 @@
 <pad name="11" x="-1.57815" y="-5.960784375" drill="0.6" rot="R15"/>
 <pad name="1" x="-5.962203125" y="-1.576721875" drill="0.6" rot="R15"/>
 <pad name="2" x="-5.962209375" y="1.6325625" drill="0.6" rot="R15"/>
-<text x="-3.81" y="-8.89" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-3.81" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
 <text x="-3.81" y="-10.16" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="-1.27" y1="0.127" x2="1.27" y2="0.127" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.127" x2="0" y2="1.397" width="0.1524" layer="21"/>
+<wire x1="0" y1="1.397" x2="-1.27" y2="0.127" width="0.1524" layer="21"/>
+<rectangle x1="-0.508" y1="-1.524" x2="0.508" y2="0.381" layer="21"/>
+<rectangle x1="-0.889" y1="0.127" x2="0.889" y2="0.508" layer="21"/>
+<rectangle x1="-0.635" y1="0.508" x2="0.635" y2="0.762" layer="21"/>
+<rectangle x1="-0.381" y1="0.762" x2="0.381" y2="1.016" layer="21"/>
+<rectangle x1="-0.127" y1="1.016" x2="0.127" y2="1.27" layer="21"/>
+<rectangle x1="-1.143" y1="0.127" x2="-0.889" y2="0.254" layer="21"/>
+<rectangle x1="-1.016" y1="0.254" x2="-0.889" y2="0.381" layer="21"/>
+<rectangle x1="-0.762" y1="0.508" x2="-0.635" y2="0.635" layer="21"/>
+<rectangle x1="-0.508" y1="0.762" x2="-0.381" y2="0.889" layer="21"/>
+<rectangle x1="-0.254" y1="1.016" x2="-0.127" y2="1.143" layer="21"/>
+<rectangle x1="0.127" y1="1.016" x2="0.254" y2="1.143" layer="21"/>
+<rectangle x1="0.381" y1="0.762" x2="0.508" y2="0.889" layer="21"/>
+<rectangle x1="0.635" y1="0.508" x2="0.762" y2="0.635" layer="21"/>
+<rectangle x1="0.889" y1="0.127" x2="1.143" y2="0.254" layer="21"/>
+<rectangle x1="0.889" y1="0.254" x2="1.016" y2="0.381" layer="21"/>
+<circle x="0" y="0" radius="8.5" width="0.254" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -109,7 +128,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="IV-27_R">
+<deviceset name="IV-27_R" prefix="IV-27_R">
 <gates>
 <gate name="G$1" symbol="IV-27_R" x="0" y="0"/>
 </gates>
